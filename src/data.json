@@ -1,0 +1,97 @@
+{
+    "displayHead":[
+      {
+        "menu":[
+          {
+            "label": "List of Microsoft Services",
+            "url": "./src/assets/images/sprite.png"
+          }
+        ],
+        "leftNav": [
+          {
+            "label": "PowerPoint Online"
+          },
+          {
+            "label": "Megan Brown",
+            "text": "Project Updates"
+          }
+        ],
+        "center":[
+          {
+            "label": "Presentation 1 - Saved"
+          }
+        ],
+        "right": [
+          {
+            "label": "Megan Brown"
+          }
+        ]
+      }
+    ],
+    "xlheader" : {
+      "primary" : {
+        "title" : "Project Falcon Budget Analysis - 10/14/2018",
+        "tableTools" : "Table Tools",
+        "leftcontent" : [
+          {
+            "appLabel" : "AutoSave",
+            "appButton" : "On"
+          },
+          {
+            "appLink" : "Undo"
+          },
+          {
+            "appLink" : "redo"
+          }
+        ],
+        "rightcontent" : [
+          {
+            "appLabel" : "Megan Bowen"
+          }
+        ]
+      },
+      "second" : {
+        "leftcontent": [
+          {
+            "appLink" : "File"
+          },
+          {
+            "appLink" : "Home"
+          },
+          {
+            "appLink" : "Insert"
+          },
+          {
+            "appLink" : "Draw"
+          },
+          {
+            "appLink" : "Page Layout"
+          },
+          {
+            "appLink" : "Formulas"
+          },
+          {
+            "appLink" : "Data"
+          },
+          {
+            "appLink" : "Review"
+          },
+          {
+            "appLink" : "View"
+          },
+          {
+            "appLink" : "Help"
+          },
+          {
+            "appLink" : "Design"
+          },
+          {
+            "appLink" : "Search"
+          }
+        ],
+        "rightcontent": [
+          
+        ]
+      }
+    }
+}

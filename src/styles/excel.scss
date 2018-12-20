@@ -1,0 +1,106 @@
+// All imported SCSS partials
+
+@import "./partials/_reset";      // Normalize
+@import "./partials/_mixins";     // Custom mixins to assist in development
+@import "./partials/_grid";       // This is a modified version of the Bootstrap grid to account for MWF breakpoints and
+@import "./partials/_fonts";      // Decalaring fonts per MWF guidelines
+@import "./partials/_variables";  // Declare global variables here
+@import "./partials/_typography"; // Declaring all typography
+
+.xlheader{
+    &__primary{
+        background: $bg--primaryheader;
+        padding: 15px 20px;
+        color: $text--white;
+        font-family: $segoe;
+        display: flex;
+    }
+    &__label{
+        vertical-align: top;
+        margin-right: 5px;
+    }
+    &__onoffbtn{
+        background: url(./assets/sprite.png) no-repeat -1px -53px transparent;
+        width: 40px;
+        height: 20px;
+        border: none;
+        text-align: left;
+        font-size: 12px;
+        text-indent: -3px;
+        vertical-align: middle;
+        color: $bg--primaryheader;
+    }
+    &__leftlistcont{
+        flex: 3;
+    }
+    &__leftlist{
+        display: inline-block;
+        margin-right: 20px;
+    }
+    &__lefticon{
+        background: url(./assets/sprite.png) no-repeat 0 0 transparent;
+        width: 15px;
+        height: 13px;
+        display: block;
+    }
+    &__center{
+        flex: 3;
+        margin: 0 auto;
+        position: relative;
+    }
+    &__tbl{
+        position: relative;
+        flex: 2;
+    }
+    &__rightlistcont{
+        flex: 3;
+    }
+    &__rightlist{
+        display: inline-block;
+        margin-left: 20px;
+    }
+    &__second{
+        background: #ebe9e6;
+        padding: 5px 20px;
+        display: flex;
+    }
+    &__scndnav{
+        flex: 8;
+    }
+    &__scndlftlist{
+        display: inline-block;
+    }
+    &__scndlftlink{
+        text-decoration: none;
+        margin-right: 25px;
+        color: #333333;
+        font-family: $segoe;
+        font-size: 14px;
+    }
+}
+.icon{
+    &--undo{
+        background-position: -377px -20px;
+    }
+    &--redo{
+        background-position: -368px -218px;
+    }
+}
+.btn{
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    padding: 10px;
+    &--tbltls{
+        background: #03401d;
+        color: $text--white;
+        position: absolute;
+        top: -15px;
+        padding: 17px 10px;
+    }
+}
+.action{
+    &--disabled{
+        opacity: 0.5;
+    }
+}
