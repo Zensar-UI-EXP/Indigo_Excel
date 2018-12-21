@@ -90,7 +90,7 @@
           }
         ],
         "rightcontent": [
-          
+          "test" : "test"
         ]
       }
     }
