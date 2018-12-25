@@ -4,7 +4,7 @@
             <li class="xlheader__leftlist" v-for="item in content.leftcontent">
                 <AppLabel v-if="item.appLabel" classname="xlheader__label" :label=item.appLabel />
                 <AppButton v-if="item.appButton" shape="xlheader__onoffbtn" :label=item.appButton />
-                <AppLinkIcon v-if="item.appLink" classname="xlheader__leftlink" iconclassprename="xlheader__lefticon icon--" :iconclassname=item.appLink.toLowerCase() :label=item.appLink />
+                <AppLinkIcon v-if="item.appLink" classname="xlheader__leftlink" iconclassprename="xlheader__lefticon action--disabled icon--" :iconclassname=item.appLink.toLowerCase() :label=item.appLink />
             </li>
         </ul>
         <div class="xlheader__center">

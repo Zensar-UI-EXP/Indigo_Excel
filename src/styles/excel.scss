@@ -8,6 +8,8 @@
 @import "./partials/_typography"; // Declaring all typography
 
 .xlheader{
+    font-size: 12px;
+    position: relative;
     &__primary{
         background: $bg--primaryheader;
         padding: 15px 20px;
@@ -76,14 +78,332 @@
         color: #333333;
         font-family: $segoe;
         font-size: 14px;
+        padding-bottom: 5px;
+    }
+    &__scndlftlink:hover{
+        border-bottom: solid 3px $bg--primaryheader;
+    }
+    &--linkactive{
+        border-bottom: solid 3px $bg--primaryheader;
+    }
+    &__scndrtlistcont{
+        flex: 4;
+    }
+    &__scndrtlist{
+        display: inline-block;
+        margin-left: 25px;
+    }
+    &__scndrtlink{
+        text-decoration: none;
+        color: #333333;
+        float: left;
+    }
+    &__scndrticon{
+        background: url(./assets/sprite.png) no-repeat 0 0 transparent;
+        width: 26px;
+        height: 23px;
+        display: inline-block;
+    }
+    &__scndrtbtn{
+        background: $bg--white!important;
+        padding: 5px 10px !important;
+        border: none;
+        font-size: 14px;
+        float: left;
+    }
+    &__btnicon{
+        width: 16px;
+        height: 16px;
+        background: url(./assets/sprite.png) no-repeat 0 0 transparent;
+        float: left;
+        margin-right: 10px;
+    }
+    &__third{
+        background: #ebe9e6;
+        padding: 5px 5px 5px 0;
+        font-size: 10px;
+        float: left;
+        width: 99.9%;
+        position: absolute;
+    }
+    &__thdcont{
+        border-right: solid 1px #DFDDDA;
+        padding-left: 5px;
+        width: 10%;
+        float: left;
+        min-height: 95px;
+        position: relative;
+    }
+    &__thdbtn{
+        background: transparent;
+        color: #333333;
+        font-size: 10px;
+        padding: 3px 0 !important;
+        &:hover{
+            background: #a6a4a1;
+            color: $text--white;
+        }
+    }
+    &__thdbtnicon{
+        width: 16px;
+        height: 16px;
+        background: url(./assets/sprite.png) no-repeat 0 0 transparent;
+        float: left;
+        margin-right: 5px;
+    }
+    &__select{
+        border-radius: 0;
+        background: $bg--white;
+        font-size: 11px;
+        color: #63626C;
+        padding: 5px;
+        border: solid 1px #DFDDDA;
+    }
+    &__thdicon{
+        width: 16px;
+        height: 16px;
+        background: url(./assets/sprite.png) no-repeat 0 0 transparent;
+        float: left;
+    }
+    &__thdlink{
+        margin: 5px 0px 5px 10px;
+        display: inline-block;
+        &:hover{
+            background: #a6a4a1;
+        }
+    }
+    &__thdheading {
+        font-size: 11px;
+        text-align: center;
+        position: absolute;
+        width: 97%;
+        bottom: 0;
+        font-weight: normal;
+        color: #333;
+    }
+    &--insamecolumn{
+        float: left;
+        width: 60%;
+        border-right: solid 1px #DFDDDA;
+        margin-right: 3px;
+    }
+    &--editingcolumn{
+        float: left;
     }
 }
 .icon{
     &--undo{
-        background-position: -377px -20px;
+        background: url(./assets/xlsprite.png) no-repeat -329px -341px;
     }
     &--redo{
-        background-position: -368px -218px;
+        background: url(./assets/xlsprite.png) no-repeat -136px -357px;
+    }
+    &--chat{
+        background-position: -273px -197px;
+    }
+    &--share{
+        background-position: -73px -337px;
+    }
+    &--comments{
+        background-position: -38px -336px;
+    }
+    &--paste{
+        background-position: -5px -187px;
+        width: 28px;
+        height: 30px;
+        margin: 0 auto 10px;
+        display: block;
+        float: none;
+    }
+    &--cut{
+        background-position: -391px -91px;
+    }
+    &--copy{
+        background-position: -390px -128px;
+    }
+    &--formatpainter{
+        background-position: -336px -82px;
+    }
+    &--incfont{
+        background-position: -311px -371px;
+    }
+    &--dcsfont{
+        background-position: -375px -110px;
+    }
+    &--bold{
+        background-position: -381px -272px;
+    }
+    &--italic{
+        background-position: -201px -384px;
+    }
+    &--underline{
+        background-position: -319px -353px;
+    }
+    &--downarrow{
+        background: url('./assets/xlsprite.png') no-repeat -392px -20px;
+        width: 5px;
+        height: 3px;
+        margin-top: 5px;
+    }
+    &--border{
+        background: url('./assets/xlsprite.png') no-repeat -399px -1px;
+    }
+    &--paint{
+        background-position: -145px -355px;
+    }
+    &--textcolor{
+        background-position: -363px -379px;
+    }
+    &-aln{
+        &--top{
+            background-position: -386px -202px;
+            height: 7px;
+        }
+        &--middle{
+            background-position: -386px -202px;
+            height: 7px;
+            margin-top: 3px;
+        }
+        &--bottom{
+            background-position: -386px -202px;
+            height: 7px;
+            margin-top: 6px;
+        }
+        &--left{
+            background-position: -164px -372px;
+            height: 10px;
+        }
+        &--center{
+            background-position: -386px -202px;
+            height: 10px;
+        }
+        &--right{
+            background-position: -373px -94px;
+            height: 10px;
+        }
+    }
+    &--super{
+        background-position: -237px -349px;
+    }
+    &--frmtleft{
+        background: url('./assets/xlsprite.png') no-repeat -382px -38px;
+        height: 14px;
+    }
+    &--frmtright{
+        background: url('./assets/xlsprite.png') no-repeat -382px -56px;
+        height: 14px;
+    }
+    &--wraptext{
+        background: url('./assets/xlsprite.png') no-repeat -312px -341px;
+	}
+    &--mergencenter{
+        background: url('./assets/xlsprite.png') no-repeat -393px -325px;
+    }
+    &--dollar{
+        background: url('./assets/xlsprite.png') no-repeat -157px -357px;
+        width: 9px;
+    }
+    &--percentage{
+        background: url('./assets/xlsprite.png') no-repeat -298px -359px;
+    }
+    &--comma{
+        background: url('./assets/xlsprite.png') no-repeat -176px -358px;
+        width: 9px;
+    }
+    &--frmtnbrleft{
+        background: url('./assets/xlsprite.png') no-repeat -244px -359px;
+    }
+    &--frmtnbright{
+        background: url('./assets/xlsprite.png') no-repeat -275px -341px;
+    }
+    &--cndtlfrmt{
+        background: url('./assets/xlsprite.png') no-repeat -247px -108px;
+        width: 28px;
+        height: 22px;
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+    &--frmtastbl{
+        background: url('./assets/xlsprite.png') no-repeat -71px -223px;
+        width: 30px;
+        height: 30px;
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+    &--cellstlyes{
+        background: url('./assets/xlsprite.png') no-repeat -105px -221px;
+        width: 30px;
+        height: 30px;
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+    &-tbl{
+        &--insert{
+            background: url('./assets/xlsprite.png') no-repeat -245px -210px;
+            width: 32px;
+            height: 22px;
+            float: none;
+            display: block;
+            margin: 0 auto;
+        }
+        &--delete{
+            background: url('./assets/xlsprite.png') no-repeat -37px -226px;
+            width: 32px;
+            height: 22px;
+            float: none;
+            display: block;
+            margin: 0 auto;
+        }
+        &--frmt{
+            background: url('./assets/xlsprite.png') no-repeat -105px -226px;
+            width: 32px;
+            height: 22px;
+            float: none;
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    &--autosum{
+        background: url('./assets/xlsprite.png') no-repeat -335px -359px;
+        width: 14px;
+        height: 16px;
+    }
+    &--fill{
+        background: url('./assets/xlsprite.png') no-repeat -399px -163px;
+        width: 16px;
+        height: 16px;
+    }
+    &--clear{
+        background: url('./assets/xlsprite.png') no-repeat -381px -127px;
+        width: 16px;
+        height: 16px;
+    }
+    &--ideas{
+        background: url('./assets/xlsprite.png') no-repeat -176px -325px;
+        width: 22px;
+        height: 28px;
+        display: block;
+        float: none;
+        margin: 0 auto 5px;
+    }
+    &--sortnfilter{
+        background: url('./assets/xlsprite.png') no-repeat -274px -276px;
+        width: 30px;
+        height: 27px;
+        display: block;
+        float: none;
+        margin: 0 auto 5px;
+    }
+    &--findnselect{
+        background: url('./assets/xlsprite.png') no-repeat -103px -290px;
+        width: 31px;
+        height: 31px;
+        display: block;
+        float: none;
+        margin: 0 auto 5px;
     }
 }
 .btn{
@@ -98,9 +418,224 @@
         top: -15px;
         padding: 17px 10px;
     }
+    &--paste{
+        float: left;
+        width: 55px;
+        text-align: center;
+    }
 }
 .action{
     &--disabled{
         opacity: 0.5;
+    }
+}
+.user{
+    &--profile{
+        border-radius: 50%;
+        border: solid 2px #7C5493;
+        padding: 1px 5px;
+        font-size: 12px;
+        text-align: center;
+    }
+}
+.pull{
+    &--lft{
+        float: left;
+    }
+}
+.bor{
+    &-rt{
+        &--1{
+            border-right: solid 1px #DFDDDA;
+        }
+        &--white{
+            border-right-color: $bg--white!important;
+        }
+    }
+    &-bg{
+        &--tpbtwhite{
+            background: $bg--white;
+            border-top-color: $bg--white!important;
+            border-bottom-color: $bg--white!important;
+        }
+    }
+    &-rtlt{
+        &--white{
+            border-left-color: $bg--white!important;
+            border-right-color: $bg--white!important;
+        }
+    }
+}
+.pad{
+    &-rt{
+        &--10{
+            padding-right: 10px;
+        }
+    }
+}
+.wdh{
+    &--125{
+        width: 125px;
+    }
+    &--80{
+        width: 80px;
+    }
+    &--20{
+        width: 20px!important;
+    }
+    &--30{
+        width: 30px!important;
+    }
+    &--100{
+        width: 100px!important;
+    }
+    &--250{
+        width: 250px!important;
+    }
+    &--415{
+        width: 415px!important;
+    }
+    &--50{
+        width: 50px!important;
+    }
+    &--35{
+        width: 35px!important;
+    }
+    &-per{
+        &--100{
+            width: 100%;
+        }
+        &--105{
+            width: 10.5%;
+        }
+        &--155{
+            width: 15.5%;
+        }
+        &--175{
+            width: 17.5%;
+        }
+        &--115{
+            width: 11.5%;
+        }
+        &--7{
+            width: 7%;
+        }
+        &--3{
+            width: 3%;
+        }
+        &--8{
+            width: 8%;
+        }
+        &--9{
+            width: 9%;
+        }
+        &--12{
+            width: 12%;
+        }
+        &--11{
+            width: 11%;
+        }
+        &--97{
+            width: 97%;
+        }
+        &--19{
+            width: 19%;
+        }
+        &--17{
+            width: 17%;
+        }
+        &--55{
+            width: 55%;
+        }
+    }
+}
+.xlbody{
+    &__table{
+        border-collapse: collapse;
+        width: 100%;
+        font-size: 14px;
+    }
+    &__tblhead{
+        background: #edebe9;
+    }
+    &__headcol{
+        width: 5%;
+        border: solid 1px #dfdfdf;
+    }
+    &__tblbody{
+        background: $bg--white;
+    }
+    &__bodycol{
+        width: 5%;
+        border: solid 1px #dfdfdf;
+        padding: 5px;
+    }
+    &__bodyrow:nth-child(even){
+        background: #EDEEEB;
+    }
+    &__bodycol:first-child{
+        background: #e9e9e7;
+    }
+}
+.mar{
+    &-all{
+        &--0{
+            margin: 0!important;
+        }
+    }
+    &-rt{
+        &--3{
+            margin-right: 3px!important;
+        }
+        &--10{
+            margin-right: 10px!important;
+        }
+    }
+    &-ltbt{
+        &--105{
+            margin: 0 0 10px 5px!important;
+        }
+    }
+    &--30auto{
+        margin: 30px auto 0!important;
+        float: none;
+        display: block;
+    }
+    &--25auto{
+        margin: 25px auto 0!important;
+        float: none;
+        display: block;
+    }
+    &--29auto{
+        margin: 29px auto 0!important;
+        float: none;
+        display: block;
+    }
+    &--20auto{
+        margin: 20px auto 0!important;
+        float: none;
+        display: block;
+    }
+    &-top{
+        &--5{
+            margin-top: 5px!important;
+        }
+        &--9{
+            margin-top: 9px!important;
+        }
+    }
+    &-ltp{
+        &--3{
+            margin-top: 3px!important;
+            margin-left: 3px!important;
+        }
+    }
+}
+.txt{
+    &--center{
+        text-align: center;
+    }
+    &--left{
+        text-align: left;
     }
 }

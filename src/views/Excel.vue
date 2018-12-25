@@ -1,12 +1,14 @@
 <template>
     <div class="excel">
         <XLHeader :content="AppData" />
+        <XLBody :content="TableContent" />
     </div>
 </template>
 
 <script>
 import jsonData from '../data.json'
 import XLHeader from "@/components/organisms/XLHeader.vue";
+import XLBody from '@/components/organisms/XLBody'
 
 export default {
     data(){
@@ -16,10 +18,11 @@ export default {
     },
     beforeMount(){
         this.AppData = jsonData.xlheader;
-        console.log(this.AppData);
+        this.TableContent = jsonData.tablecontent;
     },
     components:{
-        XLHeader
+        XLHeader,
+        XLBody
     }
 }
 </script>
