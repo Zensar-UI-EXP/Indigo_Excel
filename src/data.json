@@ -341,6 +341,54 @@
               "appLinkDownArrow" : true
             }
           ]
+        },
+        "editing" : {
+          "title" : "Editing",
+          "list" : [
+            {
+              "buttonIconLabel" : "AutoSum",
+              "nextLine" : true,
+              "iconclassname" : "autosum",
+              "appLinkDownArrow" : true
+            },
+            {
+              "buttonIconLabel" : "Fill",
+              "nextLine" : true,
+              "iconclassname" : "fill",
+              "appLinkDownArrow" : true
+            },
+            {
+              "buttonIconLabel" : "Clear",
+              "nextLine" : true,
+              "iconclassname" : "clear",
+              "appLinkDownArrow" : true
+            }
+          ],
+          "secondlist" : [
+            {
+              "buttonIconLabel" : "Sort & Filter",
+              "nextLine" : true,
+              "iconclassname" : "sortnfilter",
+              "alignleft" : true,
+              "appLinkDownArrow" : true
+            },
+            {
+              "buttonIconLabel" : "Find & Select",
+              "nextLine" : true,
+              "iconclassname" : "findnselect",
+              "appLinkDownArrow" : true
+            }
+          ]
+        },
+        "ideas" : {
+          "title" : "Ideas",
+          "list" : [
+            {
+              "buttonIconLabel" : "Ideas",
+              "nextLine" : true,
+              "iconclassname" : "ideas"
+            }
+          ]
         }
       }
     },

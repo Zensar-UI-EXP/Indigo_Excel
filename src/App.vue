@@ -2,6 +2,7 @@
 <style lang="scss">
 @import "./styles/main";
 @import "./styles/excel";
+@import "./styles/dashboard";
 </style>
 
 <script>

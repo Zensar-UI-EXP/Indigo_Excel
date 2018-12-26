@@ -59,55 +59,23 @@
             </ul>
         </div>
         <div class="xlheader__thdcont bor-rt--none wdh-per--17">
-            <h2 class="xlheader__thdheading">Editing</h2>
+            <h2 class="xlheader__thdheading">{{content.editing.title}}</h2>
             <ul class="xlheader__thdlistcont xlheader--editingcolumn">
-                <li class="xlheader__thdlist">
-                    <button class="btn xlheader__thdbtn" title="AutoSum">
-                        <i class="xlheader__thdbtnicon icon--autosum"></i>
-                        <span class="xlheader__nxtln pull--lft">AutoSum</span>
-                        <i class="xlheader__thdbtnicon mar-ltp--3 icon--downarrow"></i>
-                    </button>
-                </li>
-                <li class="xlheader__thdlist">
-                    <button class="btn xlheader__thdbtn" title="Fill">
-                        <i class="xlheader__thdbtnicon icon--fill"></i>
-                        <span class="xlheader__nxtln pull--lft">Fill</span>
-                        <i class="xlheader__thdbtnicon mar-ltp--3 icon--downarrow"></i>
-                    </button>
-                </li>
-                <li class="xlheader__thdlist">
-                    <button class="btn xlheader__thdbtn" title="Format">
-                        <i class="xlheader__thdbtnicon icon--clear"></i>
-                        <span class="xlheader__nxtln pull--lft">Clear</span>
-                        <i class="xlheader__thdbtnicon mar-ltp--3 icon--downarrow"></i>
-                    </button>
+                <li v-for="(item, index) in content.editing.list" v-bind:class="[ item.alignleft ? 'pull--lft' : '' ]" class="xlheader__thdlist">
+                    <AppButtonIcon :nextLine=item.nextLine iconDownArrowclassname="xlheader__thdbtnicon mar-ltp--3 icon--downarrow" :appLinkDownArrow=item.appLinkDownArrow classname="btn xlheader__thdbtn" iconclassprename="xlheader__thdbtnicon icon--" :iconclassname=item.iconclassname :label=item.buttonIconLabel nextlineclassname="xlheader__nxtln pull--lft" />
                 </li>
             </ul>
             <ul class="xlheader__thdlistcont">
-                <li class="xlheader__thdlist pull--lft mar-rt--10">
-                    <button class="btn xlheader__thdbtn" title="Sort & Filter">
-                        <i class="xlheader__thdbtnicon icon--sortnfilter"></i>
-                        <span class="xlheader__nxtln pull--lft txt--center wdh-per--100 mar-top--9">Sort & Filter</span>
-                        <i class="xlheader__thdbtnicon icon--downarrow mar--29auto"></i>
-                    </button>
-                </li>
-                <li class="xlheader__thdlist">
-                    <button class="btn xlheader__thdbtn" title="Find & Select">
-                        <i class="xlheader__thdbtnicon icon--findnselect"></i>
-                        <span class="xlheader__nxtln pull--lft txt--center wdh-per--100 mar-top--5">Find & Select</span>
-                        <i class="xlheader__thdbtnicon icon--downarrow mar--25auto"></i>
-                    </button>
+                <li v-for="(item, index) in content.editing.secondlist" v-bind:class="[ item.alignleft ? 'pull--lft' : '' ]" class="xlheader__thdlist">
+                    <AppButtonIcon :nextLine=item.nextLine iconDownArrowclassname="xlheader__thdbtnicon icon--downarrow mar--29auto" :appLinkDownArrow=item.appLinkDownArrow classname="btn xlheader__thdbtn" iconclassprename="xlheader__thdbtnicon icon--" :iconclassname=item.iconclassname :label=item.buttonIconLabel nextlineclassname="xlheader__nxtln pull--lft txt--center wdh-per--100 mar-top--9" />
                 </li>
             </ul>
         </div>
         <div class="xlheader__thdcont wdh-per--3">
-            <h2 class="xlheader__thdheading">Ideas</h2>
+            <h2 class="xlheader__thdheading wdh-per--85">{{content.ideas.title}}</h2>
             <ul class="xlheader__thdlistcont">
-                <li class="xlheader__thdlist pull--lft">
-                    <button class="btn xlheader__thdbtn" title="Ideas">
-                        <i class="xlheader__thdbtnicon icon--ideas"></i>
-                        <span class="xlheader__nxtln pull--lft">Ideas</span>
-                    </button>
+                <li v-for="(item, index) in content.ideas.list" v-bind:class="[ item.alignleft ? 'pull--lft' : '' ]" class="xlheader__thdlist">
+                    <AppButtonIcon :nextLine=item.nextLine classname="btn xlheader__thdbtn" iconclassprename="xlheader__thdbtnicon icon--" :iconclassname=item.iconclassname :label=item.buttonIconLabel />
                 </li>
             </ul>
         </div>

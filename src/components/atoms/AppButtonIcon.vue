@@ -1,10 +1,10 @@
 <template>
-    <button v-if="nextLine" :title="label" :class="classname + btnscndclassname" :href="path" target="_blank">
+    <button v-if="nextLine" :title="label" :class="classname + btnscndclassname">
         <i :class="iconclassprename + iconclassname"></i>
         <span :class="nextlineclassname">{{label}}</span>
         <i v-if="appLinkDownArrow" :class="iconDownArrowclassname"></i>
     </button>
-    <button v-else :title="label" :class="classname + btnscndclassname" :href="path" target="_blank">
+    <button v-else :title="label" :class="classname + btnscndclassname">
         <i :class="iconclassprename + iconclassname"></i>
         {{label}}
         <i v-if="appLinkDownArrow" :class="iconDownArrowclassname"></i>

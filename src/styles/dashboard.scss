@@ -1,0 +1,102 @@
+// All imported SCSS partials
+
+@import "./partials/_reset";      // Normalize
+@import "./partials/_mixins";     // Custom mixins to assist in development
+@import "./partials/_grid";       // This is a modified version of the Bootstrap grid to account for MWF breakpoints and
+@import "./partials/_fonts";      // Decalaring fonts per MWF guidelines
+@import "./partials/_variables";  // Declare global variables here
+@import "./partials/_typography"; // Declaring all typography
+
+.dashbanner{
+    &__top{
+        float: left;
+        width: 100%;
+        background: #333333;
+        height: 35px;
+    }
+    &__cont{
+        height: 370px;
+        overflow: hidden;
+        width: 100%;
+    }
+    &__img{
+        width: 100%;
+        margin-top: -369px;
+    }
+}
+.dashcontent{
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+    &__cont{
+        width: 80%;
+        margin: 0 auto;
+    }
+    &__heading{
+        font-size: 24px;
+    }
+    &__desc{
+        font-size: 12px;
+    }
+    &__list{
+        margin-top: 100px;
+    }
+    &__listcontent{
+        width: 31.5%;
+        float: left;
+        margin: 20px 1%;
+        padding: 1% 1% 40px;
+        position: relative;
+        text-align: left;
+        border: solid 1px #e3e3e3;
+    }
+    &__listcontent:nth-child(3n){
+        margin-right: 0%;
+    }
+    &__listimg{
+        width: 100%;
+        float: left;
+    }
+    &__listheading{
+        font-size: 20px;
+        float: left;
+        width: 100%;
+        margin-top: 20px;
+    }
+    &__listdesc{
+        font-size: 12px;
+        float: left;
+        width: 100%;
+        line-height: 18px;
+    }
+    &__listlink{
+        float: right;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    &__rtbtcorner{
+        width: 20px;
+        height: 20px;
+        background: transparent;
+        border: solid 1px #e3e3e3;
+        border-radius: 50%;
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+    }
+}
+.dashbottom{
+    &__greybg{
+        width: 100%;
+        height: 120px;
+        margin: 200px 0 0;
+        float: left;
+        background: #333333;
+    }
+    &__lightwhitebg{
+        background: #f1f5f5;
+        height: 300px;
+        width: 100%;
+        float: left;
+    }
+}
