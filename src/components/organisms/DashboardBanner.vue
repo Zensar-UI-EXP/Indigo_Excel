@@ -1,7 +1,5 @@
 <script>
-    import XLPrimaryHead from '../molecules/XLPrimaryHead'
-    import XLSecondHead from '../molecules/XLSecondHead'
-    import XLThirdHead from '../molecules/XLThirdHead'
+    import AppImage from '../atoms/AppImage'
     export default {
         name: 'DashboardBanner',
         props:{
@@ -11,7 +9,7 @@
             return <div class="dashbanner">
                         <div class="dashbanner__top"></div>
                         <div class="dashbanner__cont">
-                            <img class="dashbanner__img" src="../assets/banner.png" alt="dashboard"/>
+                            <AppImage classname="dashbanner__img" src="banner" alternativetext="Dashboard Banner"/>
                         </div>
                     </div>
         },

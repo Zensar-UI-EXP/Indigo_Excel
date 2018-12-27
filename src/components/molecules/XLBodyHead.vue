@@ -10,16 +10,10 @@
 </template>
 
 <script>
-import AppLink from '../atoms/AppLink'
-import AppButton from '../atoms/AppButton'
-import AppLabel from '../atoms/AppLabel'
 import AppLinkIcon from '../atoms/AppLinkIcon'
 export default {
     name: 'XLBodyHead',
     components: {
-        AppLink,
-        AppButton,
-        AppLabel,
         AppLinkIcon
     },
     props: {

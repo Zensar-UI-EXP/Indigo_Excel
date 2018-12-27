@@ -396,27 +396,27 @@
       "heading" : [
         {
           "title" : "A",
-          "classname" : "wdh--30"
+          "classname" : "wdh--60"
         },
         {
           "title" : "Year",
-          "classname" : "wdh--100"
+          "classname" : "wdh--110"
         },
         {
           "title" : "Product Category",
-          "classname" : "wdh--250"
+          "classname" : "wdh--280"
         },
         {
           "title" : "Product Name",
-          "classname" : "wdh--415"
+          "classname" : "wdh--475"
         },
         {
           "title" : "Sales",
-          "classname" : "wdh--125"
+          "classname" : "wdh--135"
         },
         {
           "title" : "Rating",
-          "classname" : "wdh--125"
+          "classname" : "wdh--135"
         },
         {
           "title" : "G"
@@ -432,27 +432,27 @@
         [
           {
             "value" : "",
-            "classname" : "wdh--30 bor-bg--tpbtwhite"
+            "classname" : "wdh--60 bor-bg--tpbtwhite"
           },
           {
             "value" : "2018",
-            "classname" : "wdh--100"
+            "classname" : "wdh--110"
           },
           {
             "value" : "Bevarages",
-            "classname" : "wdh--250"
+            "classname" : "wdh--280"
           },
           {
             "value" : "Chicha de Jora",
-            "classname" : "wdh--415"
+            "classname" : "wdh--475"
           },
           {
             "value" : "$ 36",
-            "classname" : "wdh--125"
+            "classname" : "wdh--135"
           },
           {
             "value" : "40%",
-            "classname" : "wdh--125"
+            "classname" : "wdh--135"
           },
           {
             "value" : "",
@@ -470,27 +470,27 @@
         [
           {
             "value" : "",
-            "classname" : "wdh--30 bor-bg--tpbtwhite"
+            "classname" : "wdh--60 bor-bg--tpbtwhite"
           },
           {
             "value" : "2018",
-            "classname" : "wdh--100"
+            "classname" : "wdh--110"
           },
           {
             "value" : "Bevarages",
-            "classname" : "wdh--250"
+            "classname" : "wdh--280"
           },
           {
             "value" : "Chicha de Jora",
-            "classname" : "wdh--415"
+            "classname" : "wdh--475"
           },
           {
             "value" : "$ 36",
-            "classname" : "wdh--125"
+            "classname" : "wdh--135"
           },
           {
             "value" : "40%",
-            "classname" : "wdh--125"
+            "classname" : "wdh--135"
           },
           {
             "value" : "",
@@ -508,27 +508,27 @@
         [
           {
             "value" : "",
-            "classname" : "wdh--30 bor-bg--tpbtwhite"
+            "classname" : "wdh--60 bor-bg--tpbtwhite"
           },
           {
             "value" : "2018",
-            "classname" : "wdh--100"
+            "classname" : "wdh--110"
           },
           {
             "value" : "Bevarages",
-            "classname" : "wdh--250"
+            "classname" : "wdh--280"
           },
           {
             "value" : "Chicha de Jora",
-            "classname" : "wdh--415"
+            "classname" : "wdh--475"
           },
           {
             "value" : "$ 36",
-            "classname" : "wdh--125"
+            "classname" : "wdh--135"
           },
           {
             "value" : "40%",
-            "classname" : "wdh--125"
+            "classname" : "wdh--135"
           },
           {
             "value" : "",
@@ -546,27 +546,27 @@
         [
           {
             "value" : "",
-            "classname" : "wdh--30 bor-bg--tpbtwhite"
+            "classname" : "wdh--60 bor-bg--tpbtwhite"
           },
           {
             "value" : "2018",
-            "classname" : "wdh--100"
+            "classname" : "wdh--110"
           },
           {
             "value" : "Bevarages",
-            "classname" : "wdh--250"
+            "classname" : "wdh--280"
           },
           {
             "value" : "Chicha de Jora",
-            "classname" : "wdh--415"
+            "classname" : "wdh--475"
           },
           {
             "value" : "$ 36",
-            "classname" : "wdh--125"
+            "classname" : "wdh--135"
           },
           {
             "value" : "40%",
-            "classname" : "wdh--125"
+            "classname" : "wdh--135"
           },
           {
             "value" : "",
@@ -584,27 +584,27 @@
         [
           {
             "value" : "",
-            "classname" : "wdh--30 bor-bg--tpbtwhite"
+            "classname" : "wdh--60 bor-bg--tpbtwhite"
           },
           {
             "value" : "2018",
-            "classname" : "wdh--100"
+            "classname" : "wdh--110"
           },
           {
             "value" : "Bevarages",
-            "classname" : "wdh--250"
+            "classname" : "wdh--280"
           },
           {
             "value" : "Chicha de Jora",
-            "classname" : "wdh--415"
+            "classname" : "wdh--475"
           },
           {
             "value" : "$ 36",
-            "classname" : "wdh--125"
+            "classname" : "wdh--135"
           },
           {
             "value" : "40%",
-            "classname" : "wdh--125"
+            "classname" : "wdh--135"
           },
           {
             "value" : "",
@@ -622,27 +622,27 @@
         [
           {
             "value" : "",
-            "classname" : "wdh--30 bor-bg--tpbtwhite"
+            "classname" : "wdh--60 bor-bg--tpbtwhite"
           },
           {
             "value" : "2018",
-            "classname" : "wdh--100"
+            "classname" : "wdh--110"
           },
           {
             "value" : "Bevarages",
-            "classname" : "wdh--250"
+            "classname" : "wdh--280"
           },
           {
             "value" : "Chicha de Jora",
-            "classname" : "wdh--415"
+            "classname" : "wdh--475"
           },
           {
             "value" : "$ 36",
-            "classname" : "wdh--125"
+            "classname" : "wdh--135"
           },
           {
             "value" : "40%",
-            "classname" : "wdh--125"
+            "classname" : "wdh--135"
           },
           {
             "value" : "",
@@ -660,27 +660,27 @@
         [
           {
             "value" : "",
-            "classname" : "wdh--30 bor-bg--tpbtwhite"
+            "classname" : "wdh--60 bor-bg--tpbtwhite"
           },
           {
             "value" : "2018",
-            "classname" : "wdh--100"
+            "classname" : "wdh--110"
           },
           {
             "value" : "Bevarages",
-            "classname" : "wdh--250"
+            "classname" : "wdh--280"
           },
           {
             "value" : "Chicha de Jora",
-            "classname" : "wdh--415"
+            "classname" : "wdh--475"
           },
           {
             "value" : "$ 36",
-            "classname" : "wdh--125"
+            "classname" : "wdh--135"
           },
           {
             "value" : "40%",
-            "classname" : "wdh--125"
+            "classname" : "wdh--135"
           },
           {
             "value" : "",
@@ -698,27 +698,27 @@
         [
           {
             "value" : "",
-            "classname" : "wdh--30 bor-bg--tpbtwhite"
+            "classname" : "wdh--60 bor-bg--tpbtwhite"
           },
           {
             "value" : "2018",
-            "classname" : "wdh--100"
+            "classname" : "wdh--110"
           },
           {
             "value" : "Bevarages",
-            "classname" : "wdh--250"
+            "classname" : "wdh--280"
           },
           {
             "value" : "Chicha de Jora",
-            "classname" : "wdh--415"
+            "classname" : "wdh--475"
           },
           {
             "value" : "$ 36",
-            "classname" : "wdh--125"
+            "classname" : "wdh--135"
           },
           {
             "value" : "40%",
-            "classname" : "wdh--125"
+            "classname" : "wdh--135"
           },
           {
             "value" : "",
@@ -736,27 +736,27 @@
         [
           {
             "value" : "",
-            "classname" : "wdh--30 bor-bg--tpbtwhite"
+            "classname" : "wdh--60 bor-bg--tpbtwhite"
           },
           {
             "value" : "2018",
-            "classname" : "wdh--100"
+            "classname" : "wdh--110"
           },
           {
             "value" : "Bevarages",
-            "classname" : "wdh--250"
+            "classname" : "wdh--280"
           },
           {
             "value" : "Chicha de Jora",
-            "classname" : "wdh--415"
+            "classname" : "wdh--475"
           },
           {
             "value" : "$ 36",
-            "classname" : "wdh--125"
+            "classname" : "wdh--135"
           },
           {
             "value" : "40%",
-            "classname" : "wdh--125"
+            "classname" : "wdh--135"
           },
           {
             "value" : "",
@@ -774,27 +774,27 @@
         [
           {
             "value" : "",
-            "classname" : "wdh--30 bor-bg--tpbtwhite"
+            "classname" : "wdh--60 bor-bg--tpbtwhite"
           },
           {
             "value" : "2018",
-            "classname" : "wdh--100"
+            "classname" : "wdh--110"
           },
           {
             "value" : "Bevarages",
-            "classname" : "wdh--250"
+            "classname" : "wdh--280"
           },
           {
             "value" : "Chicha de Jora",
-            "classname" : "wdh--415"
+            "classname" : "wdh--475"
           },
           {
             "value" : "$ 36",
-            "classname" : "wdh--125"
+            "classname" : "wdh--135"
           },
           {
             "value" : "40%",
-            "classname" : "wdh--125"
+            "classname" : "wdh--135"
           },
           {
             "value" : "",
@@ -812,27 +812,27 @@
         [
           {
             "value" : "",
-            "classname" : "wdh--30 bor-bg--tpbtwhite"
+            "classname" : "wdh--60 bor-bg--tpbtwhite"
           },
           {
             "value" : "2018",
-            "classname" : "wdh--100"
+            "classname" : "wdh--110"
           },
           {
             "value" : "Bevarages",
-            "classname" : "wdh--250"
+            "classname" : "wdh--280"
           },
           {
             "value" : "Chicha de Jora",
-            "classname" : "wdh--415"
+            "classname" : "wdh--475"
           },
           {
             "value" : "$ 36",
-            "classname" : "wdh--125"
+            "classname" : "wdh--135"
           },
           {
             "value" : "40%",
-            "classname" : "wdh--125"
+            "classname" : "wdh--135"
           },
           {
             "value" : "",
@@ -850,27 +850,27 @@
         [
           {
             "value" : "",
-            "classname" : "wdh--30 bor-bg--tpbtwhite"
+            "classname" : "wdh--60 bor-bg--tpbtwhite"
           },
           {
             "value" : "2018",
-            "classname" : "wdh--100"
+            "classname" : "wdh--110"
           },
           {
             "value" : "Bevarages",
-            "classname" : "wdh--250"
+            "classname" : "wdh--280"
           },
           {
             "value" : "Chicha de Jora",
-            "classname" : "wdh--415"
+            "classname" : "wdh--475"
           },
           {
             "value" : "$ 36",
-            "classname" : "wdh--125"
+            "classname" : "wdh--135"
           },
           {
             "value" : "40%",
-            "classname" : "wdh--125"
+            "classname" : "wdh--135"
           },
           {
             "value" : "",
@@ -888,27 +888,27 @@
         [
           {
             "value" : "",
-            "classname" : "wdh--30 bor-bg--tpbtwhite"
+            "classname" : "wdh--60 bor-bg--tpbtwhite"
           },
           {
             "value" : "2018",
-            "classname" : "wdh--100"
+            "classname" : "wdh--110"
           },
           {
             "value" : "Bevarages",
-            "classname" : "wdh--250"
+            "classname" : "wdh--280"
           },
           {
             "value" : "Chicha de Jora",
-            "classname" : "wdh--415"
+            "classname" : "wdh--475"
           },
           {
             "value" : "$ 36",
-            "classname" : "wdh--125"
+            "classname" : "wdh--135"
           },
           {
             "value" : "40%",
-            "classname" : "wdh--125"
+            "classname" : "wdh--135"
           },
           {
             "value" : "",
@@ -926,27 +926,27 @@
         [
           {
             "value" : "",
-            "classname" : "wdh--30 bor-bg--tpbtwhite"
+            "classname" : "wdh--60 bor-bg--tpbtwhite"
           },
           {
             "value" : "2018",
-            "classname" : "wdh--100"
+            "classname" : "wdh--110"
           },
           {
             "value" : "Bevarages",
-            "classname" : "wdh--250"
+            "classname" : "wdh--280"
           },
           {
             "value" : "Chicha de Jora",
-            "classname" : "wdh--415"
+            "classname" : "wdh--475"
           },
           {
             "value" : "$ 36",
-            "classname" : "wdh--125"
+            "classname" : "wdh--135"
           },
           {
             "value" : "40%",
-            "classname" : "wdh--125"
+            "classname" : "wdh--135"
           },
           {
             "value" : "",
@@ -964,27 +964,27 @@
         [
           {
             "value" : "",
-            "classname" : "wdh--30 bor-bg--tpbtwhite"
+            "classname" : "wdh--60 bor-bg--tpbtwhite"
           },
           {
             "value" : "2018",
-            "classname" : "wdh--100"
+            "classname" : "wdh--110"
           },
           {
             "value" : "Bevarages",
-            "classname" : "wdh--250"
+            "classname" : "wdh--280"
           },
           {
             "value" : "Chicha de Jora",
-            "classname" : "wdh--415"
+            "classname" : "wdh--475"
           },
           {
             "value" : "$ 36",
-            "classname" : "wdh--125"
+            "classname" : "wdh--135"
           },
           {
             "value" : "40%",
-            "classname" : "wdh--125"
+            "classname" : "wdh--135"
           },
           {
             "value" : "",
@@ -1002,27 +1002,27 @@
         [
           {
             "value" : "",
-            "classname" : "wdh--30 bor-bg--tpbtwhite"
+            "classname" : "wdh--60 bor-bg--tpbtwhite"
           },
           {
             "value" : "2018",
-            "classname" : "wdh--100"
+            "classname" : "wdh--110"
           },
           {
             "value" : "Bevarages",
-            "classname" : "wdh--250"
+            "classname" : "wdh--280"
           },
           {
             "value" : "Chicha de Jora",
-            "classname" : "wdh--415"
+            "classname" : "wdh--475"
           },
           {
             "value" : "$ 36",
-            "classname" : "wdh--125"
+            "classname" : "wdh--135"
           },
           {
             "value" : "40%",
-            "classname" : "wdh--125"
+            "classname" : "wdh--135"
           },
           {
             "value" : "",
@@ -1040,27 +1040,27 @@
         [
           {
             "value" : "",
-            "classname" : "wdh--30 bor-bg--tpbtwhite"
+            "classname" : "wdh--60 bor-bg--tpbtwhite"
           },
           {
             "value" : "2018",
-            "classname" : "wdh--100"
+            "classname" : "wdh--110"
           },
           {
             "value" : "Bevarages",
-            "classname" : "wdh--250"
+            "classname" : "wdh--280"
           },
           {
             "value" : "Chicha de Jora",
-            "classname" : "wdh--415"
+            "classname" : "wdh--475"
           },
           {
             "value" : "$ 36",
-            "classname" : "wdh--125"
+            "classname" : "wdh--135"
           },
           {
             "value" : "40%",
-            "classname" : "wdh--125"
+            "classname" : "wdh--135"
           },
           {
             "value" : "",
@@ -1078,27 +1078,27 @@
         [
           {
             "value" : "",
-            "classname" : "wdh--30 bor-bg--tpbtwhite"
+            "classname" : "wdh--60 bor-bg--tpbtwhite"
           },
           {
             "value" : "2018",
-            "classname" : "wdh--100"
+            "classname" : "wdh--110"
           },
           {
             "value" : "Bevarages",
-            "classname" : "wdh--250"
+            "classname" : "wdh--280"
           },
           {
             "value" : "Chicha de Jora",
-            "classname" : "wdh--415"
+            "classname" : "wdh--475"
           },
           {
             "value" : "$ 36",
-            "classname" : "wdh--125"
+            "classname" : "wdh--135"
           },
           {
             "value" : "40%",
-            "classname" : "wdh--125"
+            "classname" : "wdh--135"
           },
           {
             "value" : "",
@@ -1116,27 +1116,27 @@
         [
           {
             "value" : "",
-            "classname" : "wdh--30 bor-bg--tpbtwhite"
+            "classname" : "wdh--60 bor-bg--tpbtwhite"
           },
           {
             "value" : "2018",
-            "classname" : "wdh--100"
+            "classname" : "wdh--110"
           },
           {
             "value" : "Bevarages",
-            "classname" : "wdh--250"
+            "classname" : "wdh--280"
           },
           {
             "value" : "Chicha de Jora",
-            "classname" : "wdh--415"
+            "classname" : "wdh--475"
           },
           {
             "value" : "$ 36",
-            "classname" : "wdh--125"
+            "classname" : "wdh--135"
           },
           {
             "value" : "40%",
-            "classname" : "wdh--125"
+            "classname" : "wdh--135"
           },
           {
             "value" : "",
@@ -1154,27 +1154,27 @@
         [
           {
             "value" : "",
-            "classname" : "wdh--30 bor-bg--tpbtwhite"
+            "classname" : "wdh--60 bor-bg--tpbtwhite"
           },
           {
             "value" : "2018",
-            "classname" : "wdh--100"
+            "classname" : "wdh--110"
           },
           {
             "value" : "Bevarages",
-            "classname" : "wdh--250"
+            "classname" : "wdh--280"
           },
           {
             "value" : "Chicha de Jora",
-            "classname" : "wdh--415"
+            "classname" : "wdh--475"
           },
           {
             "value" : "$ 36",
-            "classname" : "wdh--125"
+            "classname" : "wdh--135"
           },
           {
             "value" : "40%",
-            "classname" : "wdh--125"
+            "classname" : "wdh--135"
           },
           {
             "value" : "",
@@ -1192,27 +1192,27 @@
         [
           {
             "value" : "",
-            "classname" : "wdh--30 bor-bg--tpbtwhite"
+            "classname" : "wdh--60 bor-bg--tpbtwhite"
           },
           {
             "value" : "2018",
-            "classname" : "wdh--100"
+            "classname" : "wdh--110"
           },
           {
             "value" : "Bevarages",
-            "classname" : "wdh--250"
+            "classname" : "wdh--280"
           },
           {
             "value" : "Chicha de Jora",
-            "classname" : "wdh--415"
+            "classname" : "wdh--475"
           },
           {
             "value" : "$ 36",
-            "classname" : "wdh--125"
+            "classname" : "wdh--135"
           },
           {
             "value" : "40%",
-            "classname" : "wdh--125"
+            "classname" : "wdh--135"
           },
           {
             "value" : "",
@@ -1230,27 +1230,27 @@
         [
           {
             "value" : "",
-            "classname" : "wdh--30 bor-bg--tpbtwhite"
+            "classname" : "wdh--60 bor-bg--tpbtwhite"
           },
           {
             "value" : "2018",
-            "classname" : "wdh--100"
+            "classname" : "wdh--110"
           },
           {
             "value" : "Bevarages",
-            "classname" : "wdh--250"
+            "classname" : "wdh--280"
           },
           {
             "value" : "Chicha de Jora",
-            "classname" : "wdh--415"
+            "classname" : "wdh--475"
           },
           {
             "value" : "$ 36",
-            "classname" : "wdh--125"
+            "classname" : "wdh--135"
           },
           {
             "value" : "40%",
-            "classname" : "wdh--125"
+            "classname" : "wdh--135"
           },
           {
             "value" : "",
@@ -1268,27 +1268,27 @@
         [
           {
             "value" : "",
-            "classname" : "wdh--30 bor-bg--tpbtwhite"
+            "classname" : "wdh--60 bor-bg--tpbtwhite"
           },
           {
             "value" : "2018",
-            "classname" : "wdh--100"
+            "classname" : "wdh--110"
           },
           {
             "value" : "Bevarages",
-            "classname" : "wdh--250"
+            "classname" : "wdh--280"
           },
           {
             "value" : "Chicha de Jora",
-            "classname" : "wdh--415"
+            "classname" : "wdh--475"
           },
           {
             "value" : "$ 36",
-            "classname" : "wdh--125"
+            "classname" : "wdh--135"
           },
           {
             "value" : "40%",
-            "classname" : "wdh--125"
+            "classname" : "wdh--135"
           },
           {
             "value" : "",
@@ -1304,5 +1304,57 @@
           }
         ]
       ]
+    },
+    "dashboard" : {
+      "bannerAlternative" : "Take a tour of the modern desktop",
+      "content" : {
+        "heading" : "Take a tour of the modern desktop",
+        "description" : "Use this incentive experience to take a drive of the latest and greatest from Office 365 and Windows 10.",
+        "StartTour" : "Start The Tour >>",
+        "list" : [
+          {
+            "imagericon" : "list__image1",
+            "heading" : "Get help with slide design",
+            "description" : "Let AI do the heavy listing with text recognition, image suggestions, slide design layout options, and built-in editing tools.",
+            "alternatext" : "PowerPoint",
+            "classname" : "dashcontent__listimg"
+          },
+          {
+            "imagericon" : "list__image2",
+            "heading" : "Save time creating reports",
+            "description" : "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, printer took a galley of type and scrambled it to make a type specimen book.",
+            "alternatext" : "Excel",
+            "classname" : "dashcontent__listimg"
+          },
+          {
+            "imagericon" : "icon__mail",
+            "heading" : "Send a cloud attachment",
+            "description" : "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, printer took a galley of type and scrambled it to make a type specimen book.",
+            "alternatext" : "Mail",
+            "classname" : "dashcontent__listicon"
+          },
+          {
+            "imagericon" : "icon__windows",
+            "heading" : "Free up hard drive space",
+            "description" : "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, printer took a galley of type and scrambled it to make a type specimen book.",
+            "alternatext" : "Windows",
+            "classname" : "dashcontent__listicon"
+          },
+          {
+            "imagericon" : "icon__teams",
+            "heading" : "Transalte a conversation",
+            "description" : "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, printer took a galley of type and scrambled it to make a type specimen book.",
+            "alternatext" : "Teams",
+            "classname" : "dashcontent__listicon"
+          },
+          {
+            "imagericon" : "icon__excel",
+            "heading" : "Check commitments off the list",
+            "description" : "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, printer took a galley of type and scrambled it to make a type specimen book.",
+            "alternatext" : "Excel",
+            "classname" : "dashcontent__listicon"
+          }
+        ]
+      }
     }
 }

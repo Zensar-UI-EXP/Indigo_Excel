@@ -1,7 +1,7 @@
 <template>
     <tbody class="xlbody__tblbody">
         <tr class="xlbody__bodyrow" v-for="(items, index) in content">
-            <td class="xlbody__bodycol wdh--30"> {{index + 1}} </td>
+            <td class="xlbody__bodycol wdh--60"> {{index + 1}} </td>
             <td :class="defaultclassname + ' '  +item.classname" v-for="item in items"> 
                 {{item.value}}
             </td>

@@ -416,9 +416,13 @@
     }
 }
 .xlbody{
+    &__left{
+        width: 70%;
+        overflow: auto;
+    }
     &__table{
         border-collapse: collapse;
-        width: 100%;
+        width: 1355px;
         font-size: 14px;
     }
     &__tblhead{
