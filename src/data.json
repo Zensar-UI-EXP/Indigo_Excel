@@ -110,7 +110,7 @@
           }
         ]
       },
-      "third" : {
+      "homemenu" : {
         "clipboard" : {
           "title" : "Clipboard",
           "list" : [
@@ -140,7 +140,7 @@
             {
               "selectLabel" : "Calibri",
               "alignleft" : true,
-              "listwidthclassname" : "wdh-per--55"
+              "listwidthclassname" : "wdh-per--44"
             },
             {
               "selectLabel" : "11",
@@ -158,7 +158,8 @@
             {
               "appLink" : "Bold",
               "iconclassname" : "bold",
-              "alignleft" : true
+              "alignleft" : true,
+              "linkclassname" : "mar-lt--none"
             },
             {
               "appLink" : "Italic",
@@ -1305,6 +1306,28 @@
         ]
       ]
     },
+    "bodyrightcontent" : {
+      "title" : "Ideas (Preview)",
+      "closelinklabel" : "Close Ideas Preview",
+      "list" : [
+        {
+          "imageheading" : "Insert Pivot chart",
+          "imagepath" : "xl_list__image1"
+        },
+        {
+          "imageheading" : "Insert Chart",
+          "imagepath" : "xl_list__image2"
+        },
+        {
+          "imageheading" : "Insert Pivot chart",
+          "imagepath" : "xl_list__image1"
+        },
+        {
+          "imageheading" : "Insert Chart",
+          "imagepath" : "xl_list__image2"
+        }
+      ]
+    },
     "dashboard" : {
       "bannerAlternative" : "Take a tour of the modern desktop",
       "content" : {
@@ -1355,6 +1378,24 @@
             "classname" : "dashcontent__listicon"
           }
         ]
+      }
+    },
+    "takeatour": {
+      "home" : {
+        "title": "Select home to see the sub menu options",
+        "link": "Click 'Home' to begin"
+      },
+      "xlideas" : {
+        "title": "This table has thousands of rows of data. Ideas use machine learning models to uncover valuable insights.",
+        "link": "Click 'Ideas'"
+      },
+      "showxlideasdetail" : {
+        "title": "Here are many suggestions to plot your data, including one that found outliers you might have otherwise overlooked.",
+        "link": "Let insert this chart into your worksheet"
+      },
+      "data" : {
+        "title": "Select data to see the sub menu options",
+        "link": "Click 'Data'"
       }
     }
 }

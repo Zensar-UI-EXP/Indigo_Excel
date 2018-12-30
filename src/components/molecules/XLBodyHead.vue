@@ -4,6 +4,7 @@
             <th class="xlbody__headcol wdh--30"> &nbsp; </th>
             <th :class="defaultclassname + ' '  +item.classname" v-for="item in content"> 
                 {{item.title}}
+                <span v-if="item.title.length > 1" class="xlbody__downarrow"></span>
             </th>
         </tr>
     </thead>

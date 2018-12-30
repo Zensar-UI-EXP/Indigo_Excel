@@ -7,6 +7,9 @@
 @import "./partials/_variables";  // Declare global variables here
 @import "./partials/_typography"; // Declaring all typography
 
+.excel{
+    min-width: 1310px;
+}
 .xlheader{
     font-size: 12px;
     position: relative;
@@ -71,10 +74,11 @@
     }
     &__scndlftlist{
         display: inline-block;
+        margin-right: 2%;
+        position: relative;
     }
     &__scndlftlink{
         text-decoration: none;
-        margin-right: 25px;
         color: #333333;
         font-family: $segoe;
         font-size: 14px;
@@ -88,10 +92,11 @@
     }
     &__scndrtlistcont{
         flex: 4;
+        text-align: right;
     }
     &__scndrtlist{
         display: inline-block;
-        margin-left: 25px;
+        margin-left: 3%;
     }
     &__scndrtlink{
         text-decoration: none;
@@ -118,13 +123,14 @@
         float: left;
         margin-right: 10px;
     }
-    &__third{
+    &__homemenu{
         background: #ebe9e6;
         padding: 5px 5px 5px 0;
         font-size: 10px;
         float: left;
         width: 99.9%;
         position: absolute;
+        z-index: 1;
     }
     &__thdcont{
         border-right: solid 1px #DFDDDA;
@@ -405,6 +411,15 @@
         float: none;
         margin: 0 auto 5px;
     }
+    &--cancel{
+        background: url(./assets/icon__cancel.png) no-repeat center center transparent;
+    }
+    &--ok{
+        background: url(./assets/icon__tick.png) no-repeat center center transparent;
+    }
+    &--formula{
+        background: url(./assets/icon__fx.png) no-repeat center center transparent;
+    }
 }
 .user{
     &--profile{
@@ -417,8 +432,11 @@
 }
 .xlbody{
     &__left{
-        width: 70%;
+        width: 100%;
         overflow: auto;
+        float: left;
+        height: 515px;
+        position: relative;
     }
     &__table{
         border-collapse: collapse;
@@ -445,5 +463,213 @@
     }
     &__bodycol:first-child{
         background: #e9e9e7;
+    }
+    &__selectedimagecont{
+        position: absolute;
+        left: 110px;
+        top: 25px;
+        width: 650px;
+    }
+    &__selectedimage{
+        width: 100%;
+    }
+    &__right{
+        width: 30%;
+        float: left;
+        background: #d6d6d4;
+        height: 515px;
+        overflow: auto;
+    }
+    &__rtinner{
+        margin: 25px 15px;
+    }
+    &__rthead{
+        padding: 0 0 10px;
+        border-bottom: solid 1px #a8a8a7;
+        float: left;
+        width: 100%;
+    }
+    &__rtheading{
+        position: relative;
+        width: 88%;
+        font-size: 18px;
+        font-weight: normal;
+        float: left;
+        margin-left: 10px;
+        &:after{
+            position: absolute;
+            border-top: solid 7px #525250;
+            border-left: solid 5px transparent;
+            border-right: solid 5px transparent;
+            right: 0;
+            top: 7px;
+            content: "";
+        }
+    }
+    &__rtclose{
+        float: right;
+        text-indent: -99999em;
+        background: url('./assets/sprite.png') no-repeat -391px -110px;
+        width: 14px;
+        height: 14px;
+        margin-top: 5px;
+    }
+    &__rtlistcont{
+        float: left;
+        width: 100%;
+        position: relative;
+    }
+    &__rtlist{
+        margin: 10px;
+        overflow: hidden;
+        line-height: 10px;
+    }
+    &__rtlstlink{
+        border: solid 1px #a8a8a7;
+        float: left;
+    }
+    &__rtlstimg{
+        width: 100%;
+    }
+    &__selectboxcont{
+        background: #edebe9;
+        padding: 5px 0;
+        float: left;
+        width: 100%;
+    }
+    &__selectinnercont{
+        margin: 0 5px;
+    }
+    &__seperator{
+        background: url(./assets/seperator.png) no-repeat 0 0 transparent;
+        width: 20px;
+        background-size: 100%;
+        float: left;
+        height: 20px;
+    }
+    &__select{
+        float: left;
+        font-size: 12px;
+        padding: 4px 0;
+    }
+    &__iconcont{
+        float: left;
+        background: #fff;
+        margin-right: 10px;
+        padding: 3px 5px;
+        border: solid 1px #dfdfdf;
+    }
+    &__icon{
+        width: 15px;
+        height: 18px;
+        float: left;
+        background-size: 100%;
+        margin-right: 10px;
+    }
+    &__downarrow{
+        position: relative;
+        overflow: hidden;
+        width: 16px;
+        height: 16px;
+        border: solid 1px #797a78;
+        background-image: linear-gradient(0deg, rgba(206,224,214,1) 0%, rgba(244,245,242,1) 100%);
+        float: right;
+        margin-top: 6px;
+        &:before {
+            content: "";
+            position: absolute;
+            border-top: solid 5px #474747;
+            border-left: solid 3px transparent;
+            border-right: solid 3px transparent;
+            left: 50%;
+            top: 50%;
+            margin-left: -3px;
+            margin-top: -2.5px;
+          }
+    }
+}
+// Tooltip
+.tooltip{
+    position: absolute;
+    z-index: 1;
+    &--alnrt{
+        right: 0;
+        .tooltip__indicator{
+            right: 13px;
+        }
+        .arrow.top{
+            right: 15px;
+        }
+    }
+    &__indicator{
+        width:15px;
+        height:15px;
+        background: $bg--blue;
+        border-radius: 50%;
+        @include inline-flex;
+        position: absolute;
+    }
+    .arrow{
+        position: absolute;
+        display: block;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-bottom: 5px solid $bg--white;
+        box-shadow: 0 16px 10px -17px rgba(0, 0, 0, 0.5);
+        @include inline-flex;
+        &.top{
+            top: 17px;
+        }
+        &.right{
+            transform: rotate(90deg);
+            right: -8px;
+        }
+        &.left{
+            transform: rotate(270deg);
+            left: 17px;
+        }
+    }
+    &__content{
+        @include margin(top,22px);
+        background: $bg--white;
+        @include font-size(12px);
+        box-shadow: rgba(0, 0, 0, 0.3) 0 -4px 30px;
+        @include padding(all,5px);
+        width: 155px;
+        line-height: 1.5;
+        color: $bg--blue;
+        button{
+            background: transparent;
+            border:none;
+            @include padding(all,0);
+            @include font-weight(600);
+            color: $bg--blue;
+            @include text-align(left)
+        }
+        .extra{
+            @include flexbox;
+            @include margin(bottom,20px)
+        }
+    }
+}
+.aln{
+    &--slctchart{
+        bottom: 48px;
+        left: 0px;
+        .tooltip__indicator{
+            bottom: -24px;
+            left: 33px;
+        }
+        .arrow{
+            bottom: -5px;
+            border-bottom: 0;
+            border-top: 5px solid #fff;
+            left: 35px;
+            top: auto!important;
+        }
+    }
+    &--tltipctr{
+        left: 50%;
+        margin-left: -7px;
     }
 }

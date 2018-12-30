@@ -1,5 +1,8 @@
 <template>
     <tbody class="xlbody__tblbody">
+        <div class="xlbody__selectedimagecont" v-show="state.state.xlnavigation == 'selectxlimage'">
+            <AppImage classname="xlbody__selectedimage" src="xl_list__image2" :alternativetext="Chart" />
+        </div>
         <tr class="xlbody__bodyrow" v-for="(items, index) in content">
             <td class="xlbody__bodycol wdh--60"> {{index + 1}} </td>
             <td :class="defaultclassname + ' '  +item.classname" v-for="item in items"> 
@@ -11,16 +14,16 @@
 
 <script>
 import AppLink from '../atoms/AppLink'
-import AppButton from '../atoms/AppButton'
 import AppLabel from '../atoms/AppLabel'
 import AppLinkIcon from '../atoms/AppLinkIcon'
+import AppImage from '../atoms/AppImage'
 export default {
     name: 'XLBodyContent',
     components: {
         AppLink,
-        AppButton,
         AppLabel,
-        AppLinkIcon
+        AppLinkIcon,
+        AppImage
     },
     props: {
         content: Array,
@@ -35,6 +38,11 @@ export default {
         isAction:{
             type: Boolean,
             default: false
+        }
+    },
+    data(){
+        return{
+            state: this.$store
         }
     },
     computed: {

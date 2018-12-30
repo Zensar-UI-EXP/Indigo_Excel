@@ -312,8 +312,38 @@
   }
 }
 
-// MIXIN: Text Align
+// MIXIN: Text 
 
 @mixin  text-align($direction) {
   text-align: $direction
+}
+
+@mixin  text-transform($transform){
+  text-transform: $transform;
+}
+
+// MIXIN FONT
+@mixin font-weight($weight) {
+  font-weight: $weight;
+}
+
+@mixin font-family($family) {
+  font-family: $family;
+}
+@mixin font-size($size) {
+  font-size: $size;
+}
+
+@mixin v-align($position) {
+  vertical-align: $position
+}
+
+//MIXIN BORDER
+@mixin border($direction, $width, $style, $color) {
+  @if $direction == all{
+    border: $width $style $color;
+  } @else{
+    border-#{$direction}: $width $style $color;
+  }
+  
 }

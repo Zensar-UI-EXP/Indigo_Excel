@@ -1,7 +1,7 @@
 <template>
     <div class="excel">
-        <XLHeader :content="AppData" />
-        <XLBody :content="TableContent" />
+        <XLHeader :content="AppData" :fn="changeXLStateVal" />
+        <XLBody :content="TableContent" :fn="changeXLStateVal" />
     </div>
 </template>
 
@@ -17,12 +17,18 @@ export default {
         }
     },
     beforeMount(){
-        this.AppData = jsonData.xlheader;
-        this.TableContent = jsonData.tablecontent;
+        this.AppData = jsonData;
+        this.TableContent = jsonData;
     },
     components:{
         XLHeader,
         XLBody
+    },
+    methods:{
+        changeXLStateVal(newVal){
+            console.log(newVal);
+            this.$store.dispatch("updateXLStateVal", newVal);
+        }
     }
 }
 </script>

@@ -21,12 +21,10 @@
 
 <script>
 import AppLink from '../atoms/AppLink'
-import AppButton from '../atoms/AppButton'
 export default {
   name: 'PrimaryHead',
   components: {
-    AppLink,
-    AppButton
+    AppLink
   },
   props: {
     links: Array,

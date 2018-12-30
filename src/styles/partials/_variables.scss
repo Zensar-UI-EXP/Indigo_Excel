@@ -80,6 +80,11 @@ $bg--primaryheader: #B8543A;
             padding-right: 10px!important;
         }
     }
+    &-lt{
+        &--10{
+            padding-left: 10px!important;
+        }
+    }
 }
 .wdh{
     &--125{
@@ -173,6 +178,15 @@ $bg--primaryheader: #B8543A;
         &--55{
             width: 55%!important;
         }
+        &--44{
+            width: 44%!important;
+        }
+        &--70{
+            width: 70%!important;
+        }
+        &--4{
+            width: 4%!important;
+        }
     }
 }
 .mar{
@@ -187,6 +201,9 @@ $bg--primaryheader: #B8543A;
         }
         &--10{
             margin-right: 10px!important;
+        }
+        &--none{
+            margin-right: 0!important;
         }
     }
     &-ltbt{
@@ -228,6 +245,11 @@ $bg--primaryheader: #B8543A;
             margin-left: 3px!important;
         }
     }
+    &-lt{
+        &--none{
+            margin-left: 0!important;
+        }
+    }
 }
 .txt{
     &--center{
@@ -240,5 +262,17 @@ $bg--primaryheader: #B8543A;
 .clear{
     &--both{
         clear: both;
+    }
+}
+.dis{
+    &--block{
+        display: block!important;
+    }
+}
+.pos{
+    &-lt{
+        &--70{
+            left: 70px;
+        }
     }
 }
